@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:riverpod_example/4_lec/lec4.dart';
 import 'package:riverpod_example/5_lec/lec5.dart';
+import 'package:riverpod_example/6_lec/lec6.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
@@ -17,7 +18,7 @@ class MyApp extends ConsumerWidget {
 
     return MaterialApp(
 
-        home: FutureProviderExample(),
+        home: TimeScreen(),
     );
   }
 }
